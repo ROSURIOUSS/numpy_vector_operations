@@ -1,0 +1,30 @@
+python -m pip install --upgrade pip
+python -m pip install numpy
+python -m pip freeze > requirements.txt
+git init
+git add .
+git commit -m "Add NumPy homework"
+git branch -M main
+git remote add origin https://github.com/ROSURIOUSS/numpy_vector_operations
+git push -u origin main
+
+python -m pip install numpy
+python -m pip freeze > requirements.txt
+python main.py
+
+np.array()
+type()
+len()
+
+np.append()
+np.insert()
+np.delete()
+
+np.where()
+np.unique()
+np.sort()
+np.clip()
+
+dtype
+shape
+size
